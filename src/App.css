@@ -1,0 +1,81 @@
+
+body {
+    background-color: #f5f4f4;
+  }
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin: auto;
+    padding: 20px;
+  }
+  label {
+    font-weight: bold;
+  }
+  button {
+    background-color: rgb(20, 92, 60);
+    color: white;
+    width: 100px;
+  }
+  
+  .input-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  .contacts-container {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #EEF7FF;
+  }
+  .contact-item { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+    align-items: center;
+  }
+  
+  .header-footer {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-name {
+    font-weight : bold; 
+  }
+  
+  
+  .contact-delete {
+    margin-left: auto;
+    padding-right: 50px;
+    cursor: pointer;
+    
+  }
+.contact-logo {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+  
+#contact-img {
+        max-width: 100%;
+        height : auto;
+  
+  }
+ 
+.contact-delete:hover {
+    color: rgb(28, 125, 99);
+  }
+ 
